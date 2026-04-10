@@ -18,8 +18,7 @@ with sq.connect('baza.db') as con:
         price INTEGER
     )""")
     
-    
-    
+#Urinbayev  
 cur.execute("""INSERT OR IGNORE INTO users (id,first_name, last_name, age) 
             VALUES (1, 'Maqsadbek', 'Qurbonboyev', 15)""")
 
